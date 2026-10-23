@@ -1,0 +1,30 @@
+node_modules/
+dist/
+.env
+.env.local
+*.tsbuildinfo
+
+# Expo
+apps/mobile/.expo/
+apps/mobile/android/
+apps/mobile/ios/
+
+# Firebase (contains API keys)
+google-services.json
+GoogleService-Info.plist
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+.claude/
+
+# Google Play Console (large binaries)
+*.aab
+*.mp4

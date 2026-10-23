@@ -1,0 +1,1 @@
+ALTER TABLE interest_signups ADD COLUMN is_bot BOOLEAN NOT NULL DEFAULT false;

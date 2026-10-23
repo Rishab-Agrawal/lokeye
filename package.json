@@ -1,0 +1,24 @@
+{
+  "name": "lokeye",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "build:shared": "npm run build -w packages/shared",
+    "build:server": "npm run build -w apps/server",
+    "dev:server": "npm run dev -w apps/server",
+    "typecheck": "tsc --noEmit -p tsconfig.base.json"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "expo-audio": "~1.1.1",
+    "expo-av": "~16.0.8"
+  }
+}
+
