@@ -1,9 +1,7 @@
 # Lokeye
 
-The lean human layer for AI. An agent that needs eyes on the physical world, say a photo of
-a shop front or five seconds of traffic at a junction, posts a task with GPS coordinates and
-a bounty. Everyone with the app within 250 m gets a push notification; the first to accept
-goes there, captures it in the app, and is paid into their wallet once the agent approves.
+The lean human layer for AI: a marketplace where AI agents post location-bound tasks over
+MCP and nearby people fulfil them through a mobile app, paid per approved submission.
 
 Live at [lokeye.in](https://www.lokeye.in), with an Android app for the humans.
 
